@@ -189,6 +189,9 @@ func Read(f io.Reader) (*TELEM, error) {
 				} else if "DVNM" == label_string {
 					// device name, "Camera"
 					//fmt.Printf("\tvals: %s\n", value)
+				} else if "FACE" == label_string {
+					// device name, "Camera"
+					fmt.Printf("\tvals: %d\n", value)
 				} else {
 					//fmt.Printf("\tvalue is %v\n", value)
 				}
