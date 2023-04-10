@@ -1,4 +1,4 @@
-module github.com/konradit/gopro-utils
+module github.com/palmoreck/gopro-utils
 
 go 1.15
 
